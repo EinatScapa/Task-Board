@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Task Board</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="top" class="row">
+        <div id="logo" class="col-2">
+        </div>
+        
+        <textarea id="new" class="col-4" name="newtsk" placeholder="My Next Task. . ."></textarea>
+        
+        <div id="btn" class="col-2">
+            <input id="date" type="date">
+            <input id="time" type="time">
+            <div id="save">Add</div>
+            <div id="clear">Clear</div>
+        </div>
+        
+        <div id="must">
+            <div id="mustTitle">Must Be Done Today!</div>
+            <textarea id="mustText" class="col-4" name="must" rows="3" ></textarea>
+            <btn id="mustBtn">Save</btn>
+            
+        </div>
+    </div>
+    
+    <div id="main"></div>
+    
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
